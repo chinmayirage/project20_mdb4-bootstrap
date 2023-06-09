@@ -1,0 +1,158 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+
+</head>
+<body>
+    <button type="button" class="btn btn-primary">Primary</button>
+
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+
+
+
+
+    <!-- Basic dropdown -->
+<button class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="false">JSPIDERS</button>
+
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">PYTHON</a>
+<a class="dropdown-item" href="#">JAVA</a>
+<a class="dropdown-item" href="#">DJANGO</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="#">WEBTECHNOLOGY</a>
+</div>
+<!-- Basic dropdown -->
+
+
+
+<div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Panel title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">heroes</h6>
+      <p class="card-text">Some quick example text to build on the panel title and make up the bulk of the panel's content.</p>
+      <a href="https://en.wikipedia.org/wiki/MS_Dhoni" class="card-link">go to msd page</a>
+      <a href="https://en.wikipedia.org/wiki/Allu_Arjun" class="card-link">go to alluarjun page</a>
+    </div>
+  </div>
+
+
+<h1>Example heading <span class="badge badge-secondary">chinnu</span></h1>
+<h2>Example heading <span class="badge badge-primary">manu</span></h2>
+<h3>Example heading <span class="badge badge-primary">bhargavi</span></h3>
+<h4>Example heading <span class="badge badge-primary">janu</span></h4>
+<h5>Example heading <span class="badge badge-primary">poornima</span></h5>
+<h6>Example heading <span class="badge badge-primary">meghana</span></h6>
+Badges can be used as part of links or buttons to provide a counter.
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+        aria-selected="true">chinnu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+        aria-selected="false">manu</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+        aria-selected="false">janu</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Raw denim you
+      probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
+      cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+      keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
+      placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi
+      qui.</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie
+      locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit,
+      blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+      Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum
+      PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS
+      salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit,
+      sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
+      stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape
+      wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack
+      lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
+      locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify
+      squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie
+      etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog
+      stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+  </div>
+
+
+  <!-- Horizontal Steppers -->
+<div class="row">
+    <div class="col-md-12">
+  
+      <!-- Stepers Wrapper -->
+      <ul class="stepper stepper-horizontal">
+  
+        <!-- First -->
+        <li class="completed">
+          <a href="#!">
+            <span class="circle">1</span>
+            <span class="label">First step</span>
+          </a>
+        </li>
+  
+        <!-- Second -->
+        <li class="active">
+          <a href="#!">
+            <span class="circle">2</span>
+            <span class="label">Second step</span>
+          </a>
+        </li>
+  
+        <!-- Third  -->
+        <li class="warning">
+          <a href="#!">
+            <span class="circle"><i class="fas fa-exclamation"></i></span>
+            <span class="label">Third step</span>
+          </a>
+        </li>
+  
+      </ul>
+      <!-- /.Stepers Wrapper -->
+  
+    </div>
+  </div>
+  <!-- /.Horizontal Steppers -->
+
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  
+</body>
+</html>
+
